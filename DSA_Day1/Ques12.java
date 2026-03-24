@@ -9,7 +9,6 @@ public class Ques12 {
         double balance = 1000.0;
 
         while (true) {
-            System.out.println("\n--- ATM MENU ---");
             System.out.println("1. Check Balance");
             System.out.println("2. Deposit");
             System.out.println("3. Withdraw");
