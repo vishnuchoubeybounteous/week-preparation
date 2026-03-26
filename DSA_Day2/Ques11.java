@@ -7,8 +7,8 @@ public class Ques11 {
         int n = board[0].length;
         int[][] dirs ={{-1,-1}, {-1,0},{-1,1},{0,-1},{0,1},{1,-1},{1,0},{1,1}};
         for(int i = 0; i < m; i++) {
-            for(int j = 0; j < n; j++) {
-                if(board[i][j] == 'M') continue;
+            for(int j=0;j<n;j++) {
+                if(board[i][j]=='M') continue;
                 int count = 0;
                 for(int[] d : dirs) {
                     int row=i+d[0];
@@ -17,7 +17,6 @@ public class Ques11 {
                         count++;
                     }
                 }
-                
                 board[i][j]=(char)(count+'0');
             }
         }

@@ -3,7 +3,9 @@ import java.util.*;
 public class Ques12 {
     public static void main(String[] args) {
 
-        int[][] board = {{0,1,0},{0,1,0},{0,1,0}};
+        int[][] board = {{0,1,0},
+                        {0,1,0},
+                         {0,1,0}};
         int m = board.length;
         int n = board[0].length;
         int[][] result = new int[m][n];
