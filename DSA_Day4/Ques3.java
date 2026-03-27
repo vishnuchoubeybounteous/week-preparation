@@ -19,11 +19,11 @@ public class Ques3 {
         System.out.println("a = " + a);
         System.out.println("b[0] = " + b[0]);
 
-        modifyPrimitive(a);    // passes a *copy* of 10
-        modifyArray(b);        // passes a *copy of the reference* to the array
+        modifyPrimitive(a);
+        modifyArray(b);    
 
         System.out.println("After calls:");
-        System.out.println("a = " + a);        // still 10
-        System.out.println("b[0] = " + b[0]);  // now 99
+        System.out.println("a = " + a);       
+        System.out.println("b[0] = " + b[0]); 
     }
 }

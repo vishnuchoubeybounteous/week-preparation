@@ -18,7 +18,7 @@ public class Ques12 {
         for (String log : logs) {
             Matcher matcher = pattern.matcher(log);
             if (matcher.find()) {
-                String dateTime = matcher.group(1);
+                //String dateTime = matcher.group(1);
                 String level = matcher.group(2);
                 String ip = matcher.group(3);
                 if (level.equals("ERROR")) {
